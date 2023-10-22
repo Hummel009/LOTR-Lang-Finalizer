@@ -3,8 +3,8 @@ package hummel
 import java.io.File
 
 fun main(args: Array<String>) {
-	if (args.size < 2) {
-		println("Usage: java -jar ThisApp.jar langUnfinalized.lang langFinalized.lang")
+	if (args.isEmpty()) {
+		println("Usage: java -jar ThisApp.jar langUnfinalized.lang")
 		return
 	}
 
