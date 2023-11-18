@@ -16,4 +16,4 @@
 
 ## Использование
 
-Запустить скомпилированный jar-файл при помощи консоли Windows, либо вызовом из другой программы: `java -jar LOTR-Lang-Finalizer.jar langUnfinalized.lang`.
+Запустить скомпилированный jar-файл двойным нажатием ЛКМ, либо открыть консоль Windows в папке с jar-файлом и выполнить команду `java -jar LOTR-Lang-Finalizer.jar langUnfinalized.lang`.
