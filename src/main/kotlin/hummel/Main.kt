@@ -3,9 +3,8 @@ package hummel
 import java.io.File
 
 fun main(args: Array<String>) {
-	if (args.isEmpty()) {
+	require(args.size == 2) {
 		println("Usage: java -jar ThisApp.jar langUnfinalized.lang")
-		return
 	}
 
 	val firstFile = File(args[0])
