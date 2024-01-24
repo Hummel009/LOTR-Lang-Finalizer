@@ -9,7 +9,8 @@
 [![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=Hummel009_LOTR-FGen&metric=sqale_index)](https://sonarcloud.io/summary/overall?id=Hummel009_LOTR-FGen)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Hummel009_LOTR-FGen&metric=ncloc)](https://sonarcloud.io/summary/overall?id=Hummel009_LOTR-FGen)
 
-Программа для удаления строк-дубликатов в файлах .lang сабмодов LOTR. В таких файлах все строки являются строками вида `key=value`. Моя программа считает дубликатами даже те строки, у которых совпадает `key`.
+Программа для удаления строк-дубликатов в файлах .lang сабмодов LOTR. В таких файлах все строки являются строками
+вида `key=value`. Моя программа считает дубликатами даже те строки, у которых совпадает `key`.
 
 ## Общая информация
 
