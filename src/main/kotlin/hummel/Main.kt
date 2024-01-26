@@ -63,7 +63,7 @@ class GUI : JFrame() {
 	init {
 		title = "Hummel009's LOTR Lang Finalizer"
 		defaultCloseOperation = EXIT_ON_CLOSE
-		setBounds(100, 100, 500, 150)
+		setBounds(100, 100, 640, 200)
 
 		val contentPanel = JPanel()
 		contentPanel.border = EmptyBorder(5, 5, 5, 5)
@@ -72,8 +72,8 @@ class GUI : JFrame() {
 		contentPane = contentPanel
 
 		val inputPanel = JPanel()
-		val inputLabel = JLabel("Input path:")
-		inputLabel.preferredSize = Dimension(80, inputLabel.preferredSize.height)
+		val inputLabel = JLabel("Target lang path:")
+		inputLabel.preferredSize = Dimension(120, inputLabel.preferredSize.height)
 		val inputField = JTextField(24)
 		val inputButton = JButton("Select path")
 		inputButton.addActionListener { selectPath(inputField) }
@@ -82,8 +82,8 @@ class GUI : JFrame() {
 		inputPanel.add(inputButton)
 
 		val outputPanel = JPanel()
-		val outputLabel = JLabel("Output path:")
-		outputLabel.preferredSize = Dimension(80, outputLabel.preferredSize.height)
+		val outputLabel = JLabel("Output lang path:")
+		outputLabel.preferredSize = Dimension(120, outputLabel.preferredSize.height)
 		val outputField = JTextField(24)
 		val outputButton = JButton("Select path")
 		outputButton.addActionListener { selectPath(outputField) }
